@@ -1,0 +1,12 @@
+.aa {
+  height: calc(
+    (100% - 30px) * 0.325
+  ); /* 100 width - padding left and padding right * 0.325  */
+  min-height: calc(
+    (100% - 30px) * 0.325
+  );
+  width: 100%;
+  border-radius: 1vw;
+  background-color: #e6e6e6;
+  object-fit: fill;
+}
